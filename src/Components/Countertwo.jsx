@@ -1,7 +1,8 @@
 import React, { useReducer } from 'react'
 
 const initialState={
-    firstCounter:0
+    firstCounter:0,
+    secondCounter:10
 }
 const reducer=(state,action)=>{
     switch(action.type){

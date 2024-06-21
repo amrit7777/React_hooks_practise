@@ -1,5 +1,6 @@
 import React from 'react'
-import DataFetchingTwo from './Components/DataFetchingTwo'
+import ParentComponent from './Components/ParentComponent'
+
 // export const CountContext=React.createContext()
 
 // const initialState=0
@@ -37,7 +38,8 @@ function App() {
     <ComponentC/>
     </CountContext.Provider> */}
     {/* <DataFetchingOne/> */}
-    <DataFetchingTwo/>
+    {/* <DataFetchingTwo/> */}
+    <ParentComponent/>
     </>
   )
 }
