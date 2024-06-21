@@ -1,4 +1,5 @@
-import DataFetching from './Components/DataFetching'
+import Countertwo from './Components/Countertwo'
+
 
 
 function App() {
@@ -10,7 +11,9 @@ function App() {
     {/* <HookCounterOne/> */}
     {/* <MouseContainer/> */}
     {/* <IntervalHook/> */}
-    <DataFetching/>
+    {/* <DataFetching/> */}
+    {/* <CounterOne/> */}
+    <Countertwo/>
     </>
   )
 }
