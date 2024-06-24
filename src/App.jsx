@@ -1,5 +1,5 @@
 import React from 'react'
-import HookTimer from './Components/HookTimer'
+import Counterones from './Components/Counterones'
 
 // export const CountContext=React.createContext()
 
@@ -42,7 +42,9 @@ function App() {
     {/* <ParentComponent/> */}
     {/* <Counter/> */}
     {/* <FocusInput/> */}
-    <HookTimer/>
+    {/* <HookTimer/> */}
+    {/* <Doctitleone/> */}
+    <Counterones/>
     </>
   )
 }
