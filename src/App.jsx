@@ -1,5 +1,5 @@
 import React from 'react'
-import ParentComponent from './Components/ParentComponent'
+import HookTimer from './Components/HookTimer'
 
 // export const CountContext=React.createContext()
 
@@ -39,7 +39,10 @@ function App() {
     </CountContext.Provider> */}
     {/* <DataFetchingOne/> */}
     {/* <DataFetchingTwo/> */}
-    <ParentComponent/>
+    {/* <ParentComponent/> */}
+    {/* <Counter/> */}
+    {/* <FocusInput/> */}
+    <HookTimer/>
     </>
   )
 }
